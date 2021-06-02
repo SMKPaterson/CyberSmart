@@ -1,0 +1,4 @@
+2021-06-02 17:50:09,898 :INFO : test_HomePage_PasteLink :HOME PAGE CHECK - Checking for expected body header text.
+2021-06-02 17:50:09,929 :ERROR : test_HomePage_PasteLink :HOME PAGE CHECK - Expected home page text not found!
+2021-06-02 17:50:40,783 :INFO : test_HomePage_PasteLink :HOME PAGE CHECK - Checking for expected body header text.
+2021-06-02 17:50:40,820 :INFO : test_HomePage_PasteLink :HOME PAGE CHECK - Pass
