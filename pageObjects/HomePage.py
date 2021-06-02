@@ -10,7 +10,7 @@ class HomePage:
 
 
     HomePageVerificationText = (By.XPATH, "//h4[contains(text(),'Test drive multi-writer Dat!')]")
-    LinkButton = (By.XPATH, "")
+    LinkButton = (By.XPATH, "//button[contains(text(),'Have a Link? Paste it Here')]")
 
 
     def verifyHomePageText(self):
