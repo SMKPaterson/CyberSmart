@@ -20,6 +20,7 @@ class HomePage:
     def verifyLinkButton(self):
         return self.driver.find_element(*HomePage.LinkButton)
 
+
 '''
     shop = (By.CSS_SELECTOR, "a[href*='shop']")
     name = (By.CSS_SELECTOR, "[name='name']")
