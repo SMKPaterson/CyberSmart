@@ -243,7 +243,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>CyberSmart.html</h1>
-    <p>Report generated on 03-Jun-2021 at 13:51:55 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 03-Jun-2021 at 16:24:29 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -259,8 +259,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.9.4</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 8.65 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 15.50 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -271,13 +271,22 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
+      <tbody class="passed results-table-row">
         <tr>
-          <td class="col-result">Failed</td>
+          <td class="col-result">Passed</td>
           <td class="col-name">test_HomePage.py::TestHomePage::test_HomePage_PasteLink</td>
-          <td class="col-duration">8.55</td>
+          <td class="col-duration">15.40</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;tests.test_HomePage.TestHomePage object at 0x0000017B3FB4F5E0&gt;<br/><br/>    @pytest.mark.functional<br/>    def test_HomePage_PasteLink(self):<br/>        log = self.getLogger()<br/>        homepage = HomePage(self.driver)<br/>        pastelinkpage = PasteLinkPage(self.driver)<br/>    <br/>        #  Manual test step 1 - checking home page displays<br/>        log.info(&quot;HOME PAGE CHECK - Checking for expected body header text.&quot;)<br/>        homePageVerificationText = homepage.verifyHomePageText().text<br/>        try:<br/>&gt;           assert(&quot;Test drive multi-writer Dat!!!&quot; in homePageVerificationText)<br/><span class="error">E           AssertionError: assert &#x27;Test drive multi-writer Dat!!!&#x27; in &#x27;Test drive multi-writer Dat!&#x27;</span><br/><br/>test_HomePage.py:27: AssertionError<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     test_HomePage_PasteLink:test_HomePage.py:24 HOME PAGE CHECK - Checking for expected body header text.
-ERROR    test_HomePage_PasteLink:test_HomePage.py:30 HOME PAGE CHECK - Expected home page text not found!<br/></div></td></tr></tbody></table></body></html>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_HomePage_PasteLink:test_HomePage.py:21 HOME PAGE CHECK - Checking for expected body header text.
+INFO     test_HomePage_PasteLink:test_HomePage.py:25 HOME PAGE CHECK - Pass
+INFO     test_HomePage_PasteLink:test_HomePage.py:30 HOME PAGE CHECK / HAVE A LINK? BUTTON - About to click.
+INFO     test_HomePage_PasteLink:test_HomePage.py:32 PASTE LINK PAGE CHECK - Expect page to render.
+INFO     test_HomePage_PasteLink:test_HomePage.py:36 PASTE LINK PAGE CHECK - Pass
+INFO     test_HomePage_PasteLink:test_HomePage.py:41 PASTE LINK PAGE CHECK / URL Field Default - Expect to be blank
+INFO     test_HomePage_PasteLink:test_HomePage.py:45 PASTE LINK PAGE CHECK / URL Field Default - Pass
+INFO     test_HomePage_PasteLink:test_HomePage.py:50 PASTE LINK PAGE CHECK / Bad URL - Entering
+INFO     test_HomePage_PasteLink:test_HomePage.py:57 PASTE LINK PAGE CHECK / Bad URL - Pass, expected warning popup displayed
+INFO     test_HomePage_PasteLink:test_HomePage.py:65 PASTE LINK PAGE CHECK / Bad URL - Pass, persisted after closing warning popup as expected
+INFO     test_HomePage_PasteLink:test_HomePage.py:77 PASTE LINK PAGE CHECK / Null URL - Pass<br/></div></td></tr></tbody></table></body></html>

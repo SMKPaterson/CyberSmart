@@ -4,9 +4,6 @@ from selenium import webdriver
 import pytest
 import time
 
-''' 
-from TestData.HomePageData import HomePageData
-'''
 from pageObjects.HomePage import HomePage
 from pageObjects.PasteLinkPage import PasteLinkPage
 from utilities.BaseClass import BaseClass

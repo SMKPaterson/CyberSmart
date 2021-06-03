@@ -1,22 +1,11 @@
-2021-06-03 14:26:07,574 :INFO : test_HomePage_PasteLink :HOME PAGE CHECK - Checking for expected body header text.
-2021-06-03 14:26:07,621 :INFO : test_HomePage_PasteLink :HOME PAGE CHECK - Pass
-2021-06-03 14:26:07,621 :INFO : test_HomePage_PasteLink :HOME PAGE CHECK / HAVE A LINK? BUTTON - About to click.
-2021-06-03 14:26:07,773 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK - Expect page to render.
-2021-06-03 14:26:07,818 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK - Pass
-2021-06-03 14:26:07,818 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK / URL Field Default - Expect to be blank
-2021-06-03 14:26:07,850 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK / URL Field Default - Pass
-2021-06-03 14:26:07,850 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK / Bad URL - Entering
-2021-06-03 14:26:08,161 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK / Bad URL - Pass, expected warning popup displayed
-2021-06-03 14:26:08,347 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK / Bad URL - Pass, persisted after closing warning popup as expected
-2021-06-03 14:26:10,539 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK / Null URL - Pass
-2021-06-03 14:59:44,931 :INFO : test_HomePage_PasteLink :HOME PAGE CHECK - Checking for expected body header text.
-2021-06-03 14:59:44,962 :INFO : test_HomePage_PasteLink :HOME PAGE CHECK - Pass
-2021-06-03 14:59:44,962 :INFO : test_HomePage_PasteLink :HOME PAGE CHECK / HAVE A LINK? BUTTON - About to click.
-2021-06-03 14:59:45,090 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK - Expect page to render.
-2021-06-03 14:59:45,187 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK - Pass
-2021-06-03 14:59:45,187 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK / URL Field Default - Expect to be blank
-2021-06-03 14:59:45,258 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK / URL Field Default - Pass
-2021-06-03 14:59:45,259 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK / Bad URL - Entering
-2021-06-03 14:59:45,470 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK / Bad URL - Pass, expected warning popup displayed
-2021-06-03 14:59:45,628 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK / Bad URL - Pass, persisted after closing warning popup as expected
-2021-06-03 14:59:47,788 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK / Null URL - Pass
+2021-06-03 16:24:23,551 :INFO : test_HomePage_PasteLink :HOME PAGE CHECK - Checking for expected body header text.
+2021-06-03 16:24:23,616 :INFO : test_HomePage_PasteLink :HOME PAGE CHECK - Pass
+2021-06-03 16:24:23,616 :INFO : test_HomePage_PasteLink :HOME PAGE CHECK / HAVE A LINK? BUTTON - About to click.
+2021-06-03 16:24:23,744 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK - Expect page to render.
+2021-06-03 16:24:23,799 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK - Pass
+2021-06-03 16:24:23,799 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK / URL Field Default - Expect to be blank
+2021-06-03 16:24:23,844 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK / URL Field Default - Pass
+2021-06-03 16:24:23,845 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK / Bad URL - Entering
+2021-06-03 16:24:24,394 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK / Bad URL - Pass, expected warning popup displayed
+2021-06-03 16:24:24,576 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK / Bad URL - Pass, persisted after closing warning popup as expected
+2021-06-03 16:24:26,848 :INFO : test_HomePage_PasteLink :PASTE LINK PAGE CHECK / Null URL - Pass
